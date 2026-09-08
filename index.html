@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaShop — Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">Nova<span>Shop</span></a>
+
+            <nav class="nav">
+                <a href="#home">Главная</a>
+                <a href="#products">Товары</a>
+                <a href="#about">О нас</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <button class="cart">
+                🛒 Корзина <span>0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <main>
+
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">НОВАЯ КОЛЛЕКЦИЯ 2026</p>
+                    <h1>Лучшие товары<br>в одном месте</h1>
+                    <p class="hero-description">
+                        Качественные товары по приятным ценам.
+                        Быстрая доставка и удобная покупка онлайн.
+                    </p>
+                    <a href="#products" class="btn">Смотреть товары</a>
+                </div>
+
+                <div class="hero-image">
+                    <div class="circle"></div>
+                    <div class="product-card">
+                        <div class="product-icon">🎧</div>
+                        <p>Premium Audio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Категории -->
+        <section class="categories">
+            <div class="container">
+                <div class="section-title">
+                    <p>КАТЕГОРИИ</p>
+                    <h2>Выберите категорию</h2>
+                </div>
+
+                <div class="category-grid">
+                    <div class="category">
+                        <div class="category-icon">📱</div>
+                        <h3>Электроника</h3>
+                        <p>120 товаров</p>
+                    </div>
+
+                    <div class="category">
+                        <div class="category-icon">👕</div>
+                        <h3>Одежда</h3>
+                        <p>250 товаров</p>
+                    </div>
+
+                    <div class="category">
+                        <div class="category-icon">🎧</div>
+                        <h3>Аксессуары</h3>
+                        <p>180 товаров</p>
+                    </div>
+
+                    <div class="category">
+                        <div class="category-icon">🏠</div>
+                        <h3>Для дома</h3>
+                        <p>95 товаров</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Товары -->
+        <section class="products" id="products">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">ПОПУЛЯРНОЕ</p>
+                        <h2>Популярные товары</h2>
+                    </div>
+
+                    <a href="#" class="view-all">Смотреть все →</a>
+                </div>
+
+                <div class="products-grid">
+
+                    <article class="product">
+                        <div class="product-image blue">
+                            <span class="badge">ХИТ</span>
+                            📱
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">Смартфоны</p>
+                            <h3>Smartphone Pro X</h3>
+                            <div class="rating">★★★★★ <span>(48)</span></div>
+
+                            <div class="price-row">
+                                <strong>49 990 ₽</strong>
+                                <del>59 990 ₽</del>
+                            </div>
+
+                            <button class="add-cart">Добавить в корзину</button>
+                        </div>
+                    </article>
+
+                    <article class="product">
+                        <div class="product-image purple">
+                            <span class="badge sale">-20%</span>
+                            🎧
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">Аудио</p>
+                            <h3>AirSound Pro</h3>
+                            <div class="rating">★★★★★ <span>(32)</span></div>
+
+                            <div class="price-row">
+                                <strong>7 990 ₽</strong>
+                                <del>9 990 ₽</del>
+                            </div>
+
+                            <button class="add-cart">Добавить в корзину</button>
+                        </div>
+                    </article>
+
+                    <article class="product">
+                        <div class="product-image orange">
+                            <span class="badge">NEW</span>
+                            ⌚
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">Гаджеты</p>
+                            <h3>Smart Watch S8</h3>
+                            <div class="rating">★★★★★ <span>(71)</span></div>
+
+                            <div class="price-row">
+                                <strong>12 490 ₽</strong>
+                            </div>
+
+                            <button class="add-cart">Добавить в корзину</button>
+                        </div>
+                    </article>
+
+                    <article class="product">
+                        <div class="product-image green">
+                            🎒
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">Аксессуары</p>
+                            <h3>Urban Backpack</h3>
+                            <div class="rating">★★★★★ <span>(25)</span></div>
+
+                            <div class="price-row">
+                                <strong>4 990 ₽</strong>
+                            </div>
+
+                            <button class="add-cart">Добавить в корзину</button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="advantages" id="about">
+            <div class="container">
+                <div class="advantages-grid">
+
+                    <div class="advantage">
+                        <div class="advantage-icon">🚚</div>
+                        <div>
+                            <h3>Быстрая доставка</h3>
+                            <p>Доставим ваш заказ от 1 дня</p>
+                        </div>
+                    </div>
+
+                    <div class="advantage">
+                        <div class="advantage-icon">🔒</div>
+                        <div>
+                            <h3>Безопасная оплата</h3>
+                            <p>Все платежи защищены</p>
+                        </div>
+                    </div>
+
+                    <div class="advantage">
+                        <div class="advantage-icon">↩️</div>
+                        <div>
+                            <h3>Возврат 14 дней</h3>
+                            <p>Без проблем вернём деньги</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Подписка -->
+        <section class="newsletter">
+            <div class="container newsletter-inner">
+                <div>
+                    <p class="section-label">НОВОСТИ</p>
+                    <h2>Получайте лучшие предложения</h2>
+                    <p>Подпишитесь и получите скидку 10% на первый заказ.</p>
+                </div>
+
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Ваш email" required>
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer" id="contacts">
+        <div class="container footer-grid">
+
+            <div>
+                <a href="#" class="logo">Nova<span>Shop</span></a>
+                <p class="footer-text">
+                    Современный интернет-магазин для тех,
+                    кто ценит качество и стиль.
+                </p>
+            </div>
+
+            <div>
+                <h3>Магазин</h3>
+                <a href="#products">Все товары</a>
+                <a href="#">Новинки</a>
+                <a href="#">Скидки</a>
+                <a href="#">Популярное</a>
+            </div>
+
+            <div>
+                <h3>Помощь</h3>
+                <a href="#">Доставка</a>
+                <a href="#">Оплата</a>
+                <a href="#">Возврат</a>
+                <a href="#">FAQ</a>
+            </div>
+
+            <div>
+                <h3>Контакты</h3>
+                <p>📞 +7 (999) 123-45-67</p>
+                <p>✉️ hello@novashop.ru</p>
+                <p>📍 Москва, Россия</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 NovaShop. Все права защищены.
+        </div>
+    </footer>
+
+</body>
+</html>
