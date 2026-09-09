@@ -1,279 +1,76 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
+    <style>
+        body {
+            background-image: url('https://u7.uidownload.com/vector/730/284/vector-abstract-bright-blue-bokeh-defocused-lights-background-image-eps-ai-thumbnail.jpg');
+            background-size: cover;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaShop — Интернет-магазин</title>
+    <title>BOXING WORLD</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>BOXING WORLD</h1>
+    <div style="display: flex; gap: 20px;">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/047/918/070/small/kick-boxing-and-boxing-logo-design-illustration-free-vector.jpg" alt="Boxing World" width="300">
+        <h2>Бокс — бул эки спортчунун атайын жумшак тери мээлей (перчатка) кийип, эрежеге ылайык кулак кагышып, бири-бирин соккуга алган спорттун контакттык түрү жана жекеме-жеке согуш өнөрү. Беттеш төрт тарабы аркан менен курчалган атайын аянтта — рингде өтөт</h2>
+    </div>
+    <р>Бокс — (от англ. box- куту,ящик,ринг ) спорттун түрү, спортсмендердин жекеме-жеке чыгып, атайын эреже боюнча мушташуусу. Оюн тегереги аркан менен курчалган (6 х 6 м) аянтта (ринг) өткөрүлөт.
 
-    <!-- Шапка -->
-    <header class="header">
-        <div class="container header-inner">
-            <a href="#" class="logo">Nova<span>Shop</span></a>
+Боксёрлор атайын жасалган жумшак тери мээлей кийип мушташат. Белден ылдый согууга уруксат берилбейт. Бокс боюнча мелдештерди өткөрүү катышуучулардын салмагына, жашына жана спорттук даярдыгына карата бөлүштүрүлөт. Бокс ден соолукка зыян келтирбөө эрежелерин сактоо менен 3 раундда өткөрүлөт.
 
-            <nav class="nav">
-                <a href="#home">Главная</a>
-                <a href="#products">Товары</a>
-                <a href="#about">О нас</a>
-                <a href="#contacts">Контакты</a>
-            </nav>
+Бокс менен машыгуу кишини ар тараптан өөрчүтөт, ден соолугун чыңайт; нерв, жүрөк-кан тамыр жана дем алуу системаларынын функцияларына жакшы таасир берет. Кишинин ыкчамдыгын, тең салмактуулугун, чечкиндүүлүгүн, чыдамкайлыгын арттырат. Бокс менен машыгууда бет, кол травмаларга учурашы ыктымал. Бокска мүнөздүү травма — нокаут (кыска убакытка акыл-эсин жоготуу). Нокаут болгондо мушташ токтотулат, спортсмен жабыр тартуу оордугуна карата ар кандай мөөнөткө мелдешке катышпайт.
 
-            <button class="cart">
-                🛒 Корзина <span>0</span>
-            </button>
+Туура жүргүзүлгөн окуу-машыгуу процесстер, коргонуу ыкмаларын туура колдонуу, мушташуу эрежелерин так аткаруу, ошондой эле спортсмендерге такай догдурдун көзөмөлү травмалардын алдын алууга жана азайышына түрткү берет. 
+</р>
+    <p>Discover the lives and careers of legendary boxers who have made a significant impact on the sport. From Muhammad Ali to Mike Tyson, learn about their journeys, victories, and challenges in the ring.</p>
+    <h3>Boxing Techniques</h3>
+    <p>Understand the various techniques used in boxing, including jabs, hooks, uppercuts, and defensive maneuvers. Learn how boxers train to improve their skills and maintain peak physical condition.</p>
+    <h4>Boxing Events</h4>
+    <p>Stay updated on upcoming boxing events and matches. Find out where to watch live fights and follow your favorite boxers as they compete for titles and championships.</p>
+    
+    <div class="boxers">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5wPTClsRsfXcyq0NinwFhush0JzpJH_7VNFoce8itCg&s=10" alt="Ilia Topuria">
+            <h2>Ilia Topuria</h2>
+            <p>Georgian-Spanish  fighter</p>
+            
+            <a href="https://en.wikipedia.org/wiki/Ilia_Topuria" target="_blank">Маалымат</a>
         </div>
-    </header>
-
-    <!-- Главный экран -->
-    <main>
-
-        <section class="hero" id="home">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <p class="subtitle">НОВАЯ КОЛЛЕКЦИЯ 2026</p>
-                    <h1>Лучшие товары<br>в одном месте</h1>
-                    <p class="hero-description">
-                        Качественные товары по приятным ценам.
-                        Быстрая доставка и удобная покупка онлайн.
-                    </p>
-                    <a href="#products" class="btn">Смотреть товары</a>
-                </div>
-
-                <div class="hero-image">
-                    <div class="circle"></div>
-                    <div class="product-card">
-                        <div class="product-icon">🎧</div>
-                        <p>Premium Audio</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Категории -->
-        <section class="categories">
-            <div class="container">
-                <div class="section-title">
-                    <p>КАТЕГОРИИ</p>
-                    <h2>Выберите категорию</h2>
-                </div>
-
-                <div class="category-grid">
-                    <div class="category">
-                        <div class="category-icon">📱</div>
-                        <h3>Электроника</h3>
-                        <p>120 товаров</p>
-                    </div>
-
-                    <div class="category">
-                        <div class="category-icon">👕</div>
-                        <h3>Одежда</h3>
-                        <p>250 товаров</p>
-                    </div>
-
-                    <div class="category">
-                        <div class="category-icon">🎧</div>
-                        <h3>Аксессуары</h3>
-                        <p>180 товаров</p>
-                    </div>
-
-                    <div class="category">
-                        <div class="category-icon">🏠</div>
-                        <h3>Для дома</h3>
-                        <p>95 товаров</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Товары -->
-        <section class="products" id="products">
-            <div class="container">
-                <div class="section-heading">
-                    <div>
-                        <p class="section-label">ПОПУЛЯРНОЕ</p>
-                        <h2>Популярные товары</h2>
-                    </div>
-
-                    <a href="#" class="view-all">Смотреть все →</a>
-                </div>
-
-                <div class="products-grid">
-
-                    <article class="product">
-                        <div class="product-image blue">
-                            <span class="badge">ХИТ</span>
-                            📱
-                        </div>
-
-                        <div class="product-info">
-                            <p class="product-category">Смартфоны</p>
-                            <h3>Smartphone Pro X</h3>
-                            <div class="rating">★★★★★ <span>(48)</span></div>
-
-                            <div class="price-row">
-                                <strong>49 990 ₽</strong>
-                                <del>59 990 ₽</del>
-                            </div>
-
-                            <button class="add-cart">Добавить в корзину</button>
-                        </div>
-                    </article>
-
-                    <article class="product">
-                        <div class="product-image purple">
-                            <span class="badge sale">-20%</span>
-                            🎧
-                        </div>
-
-                        <div class="product-info">
-                            <p class="product-category">Аудио</p>
-                            <h3>AirSound Pro</h3>
-                            <div class="rating">★★★★★ <span>(32)</span></div>
-
-                            <div class="price-row">
-                                <strong>7 990 ₽</strong>
-                                <del>9 990 ₽</del>
-                            </div>
-
-                            <button class="add-cart">Добавить в корзину</button>
-                        </div>
-                    </article>
-
-                    <article class="product">
-                        <div class="product-image orange">
-                            <span class="badge">NEW</span>
-                            ⌚
-                        </div>
-
-                        <div class="product-info">
-                            <p class="product-category">Гаджеты</p>
-                            <h3>Smart Watch S8</h3>
-                            <div class="rating">★★★★★ <span>(71)</span></div>
-
-                            <div class="price-row">
-                                <strong>12 490 ₽</strong>
-                            </div>
-
-                            <button class="add-cart">Добавить в корзину</button>
-                        </div>
-                    </article>
-
-                    <article class="product">
-                        <div class="product-image green">
-                            🎒
-                        </div>
-
-                        <div class="product-info">
-                            <p class="product-category">Аксессуары</p>
-                            <h3>Urban Backpack</h3>
-                            <div class="rating">★★★★★ <span>(25)</span></div>
-
-                            <div class="price-row">
-                                <strong>4 990 ₽</strong>
-                            </div>
-
-                            <button class="add-cart">Добавить в корзину</button>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Преимущества -->
-        <section class="advantages" id="about">
-            <div class="container">
-                <div class="advantages-grid">
-
-                    <div class="advantage">
-                        <div class="advantage-icon">🚚</div>
-                        <div>
-                            <h3>Быстрая доставка</h3>
-                            <p>Доставим ваш заказ от 1 дня</p>
-                        </div>
-                    </div>
-
-                    <div class="advantage">
-                        <div class="advantage-icon">🔒</div>
-                        <div>
-                            <h3>Безопасная оплата</h3>
-                            <p>Все платежи защищены</p>
-                        </div>
-                    </div>
-
-                    <div class="advantage">
-                        <div class="advantage-icon">↩️</div>
-                        <div>
-                            <h3>Возврат 14 дней</h3>
-                            <p>Без проблем вернём деньги</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Подписка -->
-        <section class="newsletter">
-            <div class="container newsletter-inner">
-                <div>
-                    <p class="section-label">НОВОСТИ</p>
-                    <h2>Получайте лучшие предложения</h2>
-                    <p>Подпишитесь и получите скидку 10% на первый заказ.</p>
-                </div>
-
-                <form class="subscribe-form">
-                    <input type="email" placeholder="Ваш email" required>
-                    <button type="submit">Подписаться</button>
-                </form>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Подвал -->
-    <footer class="footer" id="contacts">
-        <div class="container footer-grid">
-
-            <div>
-                <a href="#" class="logo">Nova<span>Shop</span></a>
-                <p class="footer-text">
-                    Современный интернет-магазин для тех,
-                    кто ценит качество и стиль.
-                </p>
-            </div>
-
-            <div>
-                <h3>Магазин</h3>
-                <a href="#products">Все товары</a>
-                <a href="#">Новинки</a>
-                <a href="#">Скидки</a>
-                <a href="#">Популярное</a>
-            </div>
-
-            <div>
-                <h3>Помощь</h3>
-                <a href="#">Доставка</a>
-                <a href="#">Оплата</a>
-                <a href="#">Возврат</a>
-                <a href="#">FAQ</a>
-            </div>
-
-            <div>
-                <h3>Контакты</h3>
-                <p>📞 +7 (999) 123-45-67</p>
-                <p>✉️ hello@novashop.ru</p>
-                <p>📍 Москва, Россия</p>
-            </div>
-
+        <div class="card">
+            <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/7aeb49ee-a867-4031-9b2d-752b870457a1/x178" alt="Justin Gaethje">
+            <h2>mike tyson</h2>
+            <p>American professional boxer</p>
+            
+            <a href="https://en.wikipedia.org/wiki/Mike_Tyson" target="_blank">Маалымат</a>
         </div>
 
-        <div class="copyright">
-            © 2026 NovaShop. Все права защищены.
-        </div>
-    </footer>
+        <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD89zM_knggG4GGuWrMgfyN4rVBZLnZ3hbWOIlL8c2EA&s">
+        <h2>Dimitry Bivol</h2>
+        <p>Russian professional boxer</p>
+        
+        <a href="https://en.wikipedia.org/wiki/Dmitry_Bivol" target="_blank">Маалымат</a>
+    </div>
+    </div>
 
+    
+    <div class="box" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZnl22NsfTgkkQWdRNeNL7XPtB9wMHX1gcGNndds1UwtoWALGw6ZzEvY&s=10">
+        <div class="info">
+        <h2>белгилуу боксёрлор</h2>
+            <ul>
+                <li>Илия Топурия</li>
+                <li>Майк Тайсон</li>
+                <li>Дмитрий Бивол</li>
+            </ul>
+
+        </div>
+    </div>
+
+            
 </body>
 </html>
